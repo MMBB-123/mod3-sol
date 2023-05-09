@@ -1,19 +1,1 @@
-// Define the array of names
-const names = ["John", "Jane", "Bob", "Mary", "James"];
-
-// Loop over each name in the array
-for (let i = 0; i < names.length; i++) {
-  // Get the current name
-  const name = names[i];
-
-  // Determine the greeting based on the first letter of the name
-  if (name.charAt(0).toLowerCase() === "j") {
-    console.log(`Goodbye ${name}`);
-  } else {
-    console.log(`Hello ${name}`);
-  }
-}
-This code defines an array of names and uses a for loop to iterate over each name in the array. For each name, it checks the first letter of the name using the charAt(0) method and converts it to lowercase using the toLowerCase() method. If the first letter is "j", it prints out "Goodbye" with the name using string interpolation. Otherwise, it prints out "Hello" with the name using string interpolation. The result of
-
-
 
